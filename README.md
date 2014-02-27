@@ -1,4 +1,4 @@
-ProfilesApp
+Essential-Facebook
 ===========
 
-Profiles Application Spring MVC / Hibernate / MySQL / JQuery / Bootstrap
+Essential-Facebook Application Spring 3 MVC / Hibernate 4 / MySQL / JQuery / Bootstrap 3
