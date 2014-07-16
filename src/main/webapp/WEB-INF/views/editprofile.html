@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Open Profiles - Edit Profile</title>
+
+        <!-- Core CSS - Include with every page -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+        <!-- Page-Level Plugin CSS - Dashboard -->
+        <link href="assets/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+        <link href="assets/css/plugins/timeline/timeline.css" rel="stylesheet">
+
+        <!-- SB Admin CSS - Include with every page -->
+        <link href="assets/css/sb-admin.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html">OpenProfiles</a>
+                </div>
+                <!-- /.navbar-header -->
+
+                <ul class="nav navbar-top-links navbar-right">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+
+                            <li><a href="profile.html"><i class="fa fa-gear fa-fw"></i> Profile</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <!-- /.navbar-top-links -->
+
+            </nav>
+            <!-- /.navbar-static-top -->
+
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="side-menu">
+
+                        <li>
+                            <a href="home.html"><i class="fa fa-home fa-fw"></i> Flow </a>
+                        </li>
+                        <li>
+                            <a href="profile.html"><i class="fa fa-user fa-fw"></i> Profile </a>
+                        </li>
+                        <li>
+                            <a href="profiles.html"><i class="fa fa-users fa-fw"></i> Profiles</a>
+                        </li>
+                        <li>
+                            <a href="relations.html"><i class="fa fa-users fa-fw"></i> Relations</a>
+                        </li>
+                        <li>
+                            <a href="messages.html"><i class="fa fa-envelope fa-fw"></i> Messages</a>
+                        </li>
+                        <li>
+                            <a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+
+                    </ul>
+                    <!-- /#side-menu -->
+                </div>
+                <!-- /.sidebar-collapse -->
+            </nav>
+            <!-- /.navbar-static-side -->
+
+            <div id="page-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Edit Profile</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+
+                            <div class="panel-body">
+                                <img src="assets/img/default_user.jpg" alt="Default user" class="img-thumbnail img-responsive">
+                                <div class="form-group">
+                                    <label></label>
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                Introduction
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                Details
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Profession</label>
+                                    <input class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Web site</label>
+                                    <input class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>City</label>
+                                    <input class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Country</label>
+                                    <input class="form-control">
+                                </div>
+
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- Core Scripts - Include with every page -->
+        <script src="assets/js/jquery-1.10.2.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+    </body>
+
+</html>
